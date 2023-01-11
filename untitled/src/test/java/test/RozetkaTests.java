@@ -9,7 +9,7 @@ import utils.Links;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class WebTests {
+public class RozetkaTests {
     @Test
     public void navigateToRozetkaWebsiteAndSearchIphone() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
