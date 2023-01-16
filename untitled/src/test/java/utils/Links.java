@@ -6,7 +6,8 @@ public enum Links {
     DJINNI("https://djinni.co/"),
     HACKER9("https://hacker9.org/?aid=CYZ0GCW5vZ/"),
     GOOGLE("https://www.google.com.ua/"),
-    TEMP_MAIL("https://temp-mail.org/en/");
+    TEMP_MAIL("https://temp-mail.org/en/"),
+    PROTONMAIL("https://account.proton.me/signup/");
 
     private final String link;
     Links(String link){

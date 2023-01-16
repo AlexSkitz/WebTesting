@@ -14,7 +14,6 @@ public class djinniTests {
     public void navigateToDjinniAndRegisterTest() throws InterruptedException {
         getCredentials fff = new getCredentials();
         String email = fff.getNewCredentialsEmail();
-        System.out.println("////////////////" + email);
         WebDriver driver = new ChromeDriver();
         //Open Google Chrome browser
         driver.manage().window().maximize();
