@@ -5,7 +5,8 @@ public enum Links {
     YOUTUBE("https://www.youtube.com/"),
     DJINNI("https://djinni.co/"),
     HACKER9("https://hacker9.org/?aid=CYZ0GCW5vZ/"),
-    GOOGLE("https://www.google.com.ua/");
+    GOOGLE("https://www.google.com.ua/"),
+    TEMP_MAIL("https://temp-mail.org/en/");
 
     private final String link;
     Links(String link){

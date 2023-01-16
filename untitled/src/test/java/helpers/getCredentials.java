@@ -10,15 +10,14 @@ public class getCredentials {
     public String getNewCredentialsEmail() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get(Links.HACKER9.getLink());
-//        Thread.sleep(10000);
-//        WebElement refreshButton = driver.findElement(By
-//                .xpath("//*[@id=\"root\"]/div[1]/main/div/div[1]/div[2]/form/div[2]/div/div/div[2]/div/div/svg[2]"));
-//        refreshButton.click();
-//        WebElement emailField = driver.findElement(By
-//                .xpath("//*[@id=\"root\"]/div[1]/main/div/div[1]/div[2]/form/div[2]/div/div/div[1]"));
-//        String email = emailField.getText();
-//        driver.quit();
-        return "s";
+        driver.get(Links.TEMP_MAIL.getLink());
+        Thread.sleep(10000);
+        WebElement refreshButton = driver.findElement(By.xpath("//*[@id=\"click-to-delete\"]"));
+        refreshButton.click();
+        WebElement emailField = driver.findElement(By
+                .xpath("//*[@id=\"mail\"]"));
+        String email = emailField.getText();
+        driver.quit();
+        return email;
     }
 }
