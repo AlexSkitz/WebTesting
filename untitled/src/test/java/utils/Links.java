@@ -7,6 +7,7 @@ public enum Links {
     HACKER9("https://hacker9.org/?aid=CYZ0GCW5vZ/"),
     GOOGLE("https://www.google.com.ua/"),
     TEMP_MAIL("https://temp-mail.org/en/"),
+    BORJOMI("https://thedeepestsite.com/"),
     PROTONMAIL("https://account.proton.me/signup/");
 
     private final String link;
