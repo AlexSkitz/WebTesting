@@ -21,9 +21,9 @@ public class ProtonMailRegistration {
         driver.get(Links.PROTONMAIL.getLink());
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-        WebElement iFrame = wait.until(ExpectedConditions
-                .visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[3]/div[1]/div/main/div[2]/form/iframe")));
-        driver.switchTo().frame(iFrame);
+            WebElement iFrame = wait.until(ExpectedConditions
+                    .visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[3]/div[1]/div/main/div[2]/form/iframe")));
+            driver.switchTo().frame(iFrame);
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(userName);
         driver.switchTo().defaultContent();
 
