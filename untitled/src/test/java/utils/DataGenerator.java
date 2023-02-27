@@ -57,7 +57,7 @@ public class DataGenerator {
     }
 
     public static String email(String prefix, int length) {
-        return prefix + "-" + generateNumberString(length) + "@example.com";
+        return prefix + "-" + generateNumberString(length) + "@gmail.com";
     }
 
     public static String email(int length) {

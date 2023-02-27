@@ -38,7 +38,7 @@ public class ProtonMailRegistration {
 //        driver.findElement(By.xpath("//*[@id=\"checkbox\"]")).click();
 //        driver.switchTo().defaultContent();
 
-        driver.quit();
+//        driver.quit();
 
     }
 }
